@@ -78,6 +78,7 @@ input::-webkit-input-placeholder {
   margin: 16px;
   border-radius: 20px;
   font-size: 15px;
+  cursor: pointer;
 }
 .pills {
   background-color: #fff;
@@ -86,4 +87,10 @@ input::-webkit-input-placeholder {
   margin: 16px;
   border-radius: 20px;
   font-size: 15px;
+  cursor: pointer;
+}
+.artwork img{
+    position: absolute;
+    top: -1.5cm;
+    left: 18cm;
 }
