@@ -1,0 +1,89 @@
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  background-color: #121518;
+}
+h1 {
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.news-letter {
+  margin-top: 120px;
+}
+
+.news {
+  padding: 4.8px 0 9.6px 0;
+  text-align: left;
+  margin-left: 50px;
+}
+.news-heading {
+  font-size: 44px;
+  line-height: 1.4;
+
+  color: #fff;
+}
+.news p {
+  font-size: 18px;
+  margin-bottom: 16px;
+  margin-top: 12px;
+  line-height: 1.8;
+}
+
+input[type="email"] {
+  display: inline-block;
+  width: 35%;
+  padding: 20px 36px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  height: 45px;
+  margin-top: 18px;
+  border-radius: 80px;
+  border: none;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.06);
+}
+input,
+input::-webkit-input-placeholder {
+  font-size: 16px;
+  line-height: 3;
+}
+
+.bt {
+  margin-left: -122px;
+  font-size: 16px;
+  display: inline-block;
+  font-weight: 600;
+  padding: 14px 32px;
+  border-radius: 0 20px 20px 0px;
+
+  /* Only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  background-color: #5865f2;
+  color: #fff;
+}
+
+.beginner {
+  background-color: #ff0080;
+  color: #fff;
+  padding: 6px 20px;
+  margin: 16px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+.pills {
+  background-color: #fff;
+  color: #ff0080;
+  padding: 6px 20px;
+  margin: 16px;
+  border-radius: 20px;
+  font-size: 15px;
+}
