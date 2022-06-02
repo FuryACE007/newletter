@@ -89,6 +89,15 @@ input::-webkit-input-placeholder {
   font-size: 15px;
   cursor: pointer;
 }
+.pills:hover {
+    background-color:#FAD9E6;
+    transition: 0.7s;
+}
+.pills:active {
+    background-color: #ff0080;
+    transition: 0.1s;
+    color: #fff;
+}
 .artwork img{
     position: absolute;
     top: -1.5cm;
